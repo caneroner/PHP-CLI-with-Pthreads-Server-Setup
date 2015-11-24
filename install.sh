@@ -1,6 +1,6 @@
 #!/bin/sh -
 
-# uncomment this 5 lines to auto add swap for Digital Ocean servers
+# uncomment this 5 lines to add swap for Digital Ocean servers (512MB RAM is not enough to compile)
 #sudo fallocate -l 1G /swapfile
 #sudo chmod 600 /swapfile
 #sudo mkswap /swapfile
