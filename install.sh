@@ -28,7 +28,7 @@ cd /var/tmp/php-"$php_version"
 ./configure --prefix=/usr/local --with-config-file-path=/etc --enable-maintainer-zts --with-readline \
 	--with-mcrypt --with-zlib --enable-mbstring --with-curl --with-bz2 --enable-zip --enable-sockets \
 	--enable-sysvsem --with-mhash --with-pcre-regex --with-gettext --enable-bcmath --enable-libxml \
-	--enable-json --with-openssl --enable-pcntl
+	--enable-json --with-openssl --enable-pcntl --with-mysql
 
 make -j8
 make install
