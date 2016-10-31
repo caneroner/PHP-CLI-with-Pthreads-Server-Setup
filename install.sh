@@ -13,7 +13,8 @@ pthread_version="2.0.10"
 
 apt-get -q -y update
 apt-get -q -y install build-essential zlib1g-dev libreadline-dev libbz2-dev libxml2-dev libssl-dev \
-	libcurl4-openssl-dev libmcrypt-dev autoconf
+	libcurl4-openssl-dev libmcrypt-dev autoconf apache2 mysql-server libapache2-mod-auth-mysql php5-mysql
+
 
 wget http://php.net/get/php-"$php_version".tar.xz/from/this/mirror -O /var/tmp/php.tar.xz
 wget http://php.net/get/php-"$php_version".tar.xz.asc/from/this/mirror -O /var/tmp/php.tar.xz.asc
